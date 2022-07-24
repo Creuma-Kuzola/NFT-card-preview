@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    justify-content: center;
+    background-color:hsl(217, 54%, 11%) ;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main-section{
+
+    background-color: hsl(216, 50%, 16%);
+    width: 20vw;
+    height: 70vh;
+    border-radius: 0.7vw;
+    /*box-shadow: 0.5vw 0.3vw 0.3vw hsl(178, 100%, 50%);*/
+    position: absolute;
+}
+
+.div-img-nft{
+
+    position: relative;
+    width:17vw;
+    height: 35vh;  
+    transform: translate(1.5vw, 1.5vw);
+    
+}
+
+.img-nft{
+
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.7vw;
+}
+
+
+.div-content{
+
+    width: 20vw;
+    height: 35vh;
+    position: relative;
+    transform: translate(1.5vw, 1.5vw);
+}
+
+.content-h4{
+
+    color: hsl(0, 0%, 100%);
+    margin-top: 3vh;
+}
+
+.content-p{
+
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.8rem;
+    margin-top: 3vh;
+    line-height: 3.5vh;
+}
+
+.section-2-columns{
+
+    display: grid;
+    grid-template-columns: 2;
+}
+
+.icon-ethereum{
+
+    
+}
