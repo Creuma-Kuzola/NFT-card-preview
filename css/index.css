@@ -24,7 +24,6 @@ body{
     height: 70vh;
     border-radius: 0.7vw;
     /*box-shadow: 0.5vw 0.3vw 0.3vw hsl(178, 100%, 50%);*/
-    position: absolute;
 }
 
 .div-img-nft{
@@ -33,7 +32,6 @@ body{
     width:17vw;
     height: 35vh;  
     transform: translate(1.5vw, 1.5vw);
-    
 }
 
 .img-nft{
@@ -72,9 +70,57 @@ body{
 
     display: grid;
     grid-template-columns: 2;
+    grid-auto-flow: column;
+    margin-top: 3vh;
 }
+
+.section-ethereum, .section-time{
+    display: grid;
+    grid-template-columns: 2;
+    grid-auto-flow: column;
+}
+
 
 .icon-ethereum{
 
+    width: 0.7vw;
+}
+
+.icon-clock{
+
+    width: 1vw;
+    transform: translatex(0.2vw);
+
+}
+
+.section-time{
+
+    transform: translatey(0.2vh);
+}
+
+.p-ethereum, .p-clock{
+
+    line-height: vh;
+    transform: translateX(-1.2vw);
+    font-size: 0.9rem;
+}
+
+.p-ethereum{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.p-clock{
+    color: hsl(215, 51%, 70%);
+    font-size: 0.80rem;
+}
+
+.hr-line{
+
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    width: 18vw;
+    height: 0.15vh;
+    margin-top: 3vh;
     
 }
