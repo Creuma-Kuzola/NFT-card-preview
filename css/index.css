@@ -62,7 +62,7 @@ body{
 .div-img-nft::after{
     content: " ";
     width: 3vw;
-    height: 5vh;
+    height: 6vh;
     background-image: url("../images/icon-view.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,12 +79,9 @@ body{
 
     display: block;
     cursor: pointer;
-    transition: 1s;
 }
 
-
 .div-content{
-
     width: 20vw;
     height: 35vh;
     position: relative;
@@ -125,17 +122,13 @@ body{
     grid-auto-flow: column;
 }
 
-
 .icon-ethereum{
-
     width: 0.7vw;
 }
 
 .icon-clock{
-
     width: 1vw;
     transform: translatex(0.2vw);
-
 }
 
 .section-time{
@@ -164,7 +157,7 @@ body{
 
     border: none;
     background-color: hsl(215, 32%, 27%);
-    width: 18vw;
+    width: 85%;
     height: 0.15vh;
     margin-top: 3vh;
     
@@ -192,10 +185,8 @@ body{
 }
 
 .section-author-p, .section-author-p-span{
-
     font-size: 0.8rem;
     line-height: 4vh;
-
 }
 
 .section-author-p{
@@ -213,4 +204,299 @@ body{
 
     color: hsl(178, 100%, 50%);
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .main-section{
+        width: 28vw;        
+    }
+
+    .div-img-nft{
+        width:24vw;
+        transform: translate(2vw, 2vw);
+    }
+
+    .div-img-nft::before{
+        width:24vw;
+    }
+
+    .div-img-nft::after{
+        width: 4vw;
+        height: 6vh;
+    }
+
+    .div-content{
+        width: 28vw;
+        transform: translate(2vw, 2vw);
+    }
+
+    .content-h4{
+
+        margin-top: 4vh;
+    }
+
+    .content-p{
+        font-size: 0.9rem;
+        margin-top: 3vh;
+    }
+
+    .section-2-columns{
+
+        display: grid;
+        grid-template-columns: 2;
+        grid-auto-flow: column;
+        margin-top: 3vh;
+    }
+
+    .section-ethereum, .section-time{
+        display: grid;
+        grid-template-columns: 2;
+        grid-auto-flow: column;
+    }
+
+    .icon-ethereum{
+        width: 1vw;
+    }
+
+    .icon-clock{
+        width: 1.5vw;
+        transform: translatex(0.2vw);
+    }
+
+    .section-time{
+
+        transform: translatey(0.2vh);
+    }
+
+    .p-ethereum, .p-clock{
+
+        line-height: 3vh;
+        transform: translateX(-2.2vw);
+        font-size: 0.9rem;
+    }
+
+    .p-ethereum{
+        color: hsl(178, 100%, 50%);
+        font-weight: 600;
+    }
+
+    .p-clock{
+        color: hsl(215, 51%, 70%);
+        font-size: 0.80rem;
+    }
+
+    .hr-line{
+        height: 0.015vh;
+        margin-top: 3vh;
+        
+    }
+
+    .section-author{
+        margin-top: 3vh;
+    }
+
+    .section-author-p, .section-author-p-span{
+
+        font-size: 0.8rem;
+        line-height: 4vh;
+
+    }
+
+    .section-author-p{
+        transform: translateX(-4.8vw);
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+    
+    .main-section{
+        width: 35vw;        
+    }
+
+    .div-img-nft{
+        width:30vw;
+        transform: translate(2.4vw, 2vw);
+    }
+
+    .div-img-nft::before{
+        width:30vw;
+    }
+
+    .div-img-nft::after{
+        width: 6vw;
+        height: 6vh;
+    }
+
+    .div-content{
+        width: 35vw;
+        transform: translate(2.4vw, 2vw);
+    }
+
+    .content-h4{
+        font-size: 1.3rem;
+        margin-top: 4.5vh;
+    }
+
+    .content-p{
+        font-size: 0.9rem;
+        margin-top: 3vh;
+    }
+
+    .section-2-columns{
+
+        display: grid;
+        grid-template-columns: 2;
+        grid-auto-flow: column;
+        margin-top: 3vh;
+    }
+
+    .section-ethereum, .section-time{
+        display: grid;
+        grid-template-columns: 2;
+        grid-auto-flow: column;
+    }
+
+    .icon-ethereum{
+        width: 1.5vw;
+    }
+
+    .icon-clock{
+        width: 2.5vw;
+        transform: translatex(0.2vw);
+    }
+
+    .section-time{
+
+        transform: translatey(0.2vh);
+    }
+
+    .p-ethereum, .p-clock{
+
+        line-height: 3vh;
+        transform: translateX(-2.2vw);
+        font-size: 1rem;
+    }
+
+    .hr-line{
+        height: 0.2vh;
+        margin-top: 3vh;
+        
+    }
+
+    .section-author{
+        display: grid;
+        grid-template-columns: 2;
+        grid-auto-flow: column;
+        margin-top: 2vh;
+    }
+    
+    .section-author-section{
+    
+        width: 2rem;
+        height: 2rem;
+        border: 0.3vw hsl(0, 0%, 100%) solid;
+    }
+    
+    .section-author-p, .section-author-p-span{
+        font-size: 1rem;
+        line-height: 4vh;
+    }
+    
+    .section-author-p{
+    
+        transform: translateX(-2.5vw);
+    }
+    
+
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    .main-section{
+        width: 64vw;    
+        height: 79vh;    
+    }
+
+    .div-img-nft{
+        width:55vw;
+        transform: translate(4.5vw, 4.5vw);
+    }
+
+    .div-img-nft::before{
+        width:55vw;
+    }
+
+    .div-img-nft::after{
+        width: 9vw;
+    }
+
+    .div-content{
+        width: 64vw;
+        transform: translate(4.5vw, 4.5vw);
+    }
+
+    .content-h4{
+        font-size: 1.5rem;
+    }
+
+    .content-p{
+        font-size: 1rem;
+        margin-top: 3vh;
+    }
+
+
+    .icon-ethereum{
+        width: 3.5vw;
+    }
+
+    .icon-clock{
+        width: 5vw;
+        transform: translatex(0.2vw);
+    }
+
+    .section-time{
+
+        transform: translatey(0.2vh);
+    }
+
+    .p-ethereum, .p-clock{
+
+        line-height: 3vh;
+        transform: translateX(-4.2vw);
+        font-size: 1.1rem;
+    }
+
+    .hr-line{
+        height: 0.3vh;
+        margin-top: 3vh;
+    }
+
+    .section-author{
+        display: grid;
+        grid-template-columns: 2;
+        grid-auto-flow: column;
+        margin-top: 3vh;
+    }
+    
+    .section-author-section{
+    
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 0.3vw hsl(0, 0%, 100%) solid;
+    }
+    
+    .section-author-p, .section-author-p-span{
+        font-size: 1.2rem;
+        line-height: 5vh;
+    }
+    
+    .section-author-p{
+    
+        transform: translateX(-3.5vw);
+    }
+    
+
 }
