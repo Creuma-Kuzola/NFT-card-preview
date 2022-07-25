@@ -381,7 +381,7 @@ body{
 
     .hr-line{
         height: 0.2vh;
-        margin-top: 3vh;
+        margin-top: 4vh;
         
     }
 
@@ -447,14 +447,12 @@ body{
         margin-top: 3vh;
     }
 
-    
-
     .icon-ethereum{
-        width: 3.5vw;
+        width: 3vw;
     }
 
     .icon-clock{
-        width: 5vw;
+        width: 4.5vw;
         transform: translatex(0.2vw);
     }
 
@@ -465,9 +463,9 @@ body{
 
     .p-ethereum, .p-clock{
 
-        line-height: 3vh;
+        line-height: 4vh;
         transform: translateX(-4.2vw);
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .hr-line{
@@ -490,13 +488,13 @@ body{
     }
     
     .section-author-p, .section-author-p-span{
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 5vh;
     }
     
     .section-author-p{
     
-        transform: translateX(-3.5vw);
+        transform: translateX(-7.5vw);
     }
     
 
