@@ -47,6 +47,4 @@ Users should be able to:
 
 - Frontend Mentor - [@Creuma-Kuzola](https://www.frontendmentor.io/profile/Creuma-Kuzola)
 - Twitter - [@CKuzola](https://twitter.com/CKuzola)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
+- GitHub - [@Creuma-Kuzola](https://github.com/Creuma-Kuzola)
