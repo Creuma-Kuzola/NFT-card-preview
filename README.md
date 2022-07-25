@@ -36,8 +36,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Creuma-Kuzola/NFT-card-preview)
-- Live Site URL: [Add live site URL here](https://card-preview-nft-creuma.netlify.app/)
+- Solution URL: [Link do GitHub](https://github.com/Creuma-Kuzola/NFT-card-preview)
+- Live Site URL: [Link do site](https://card-preview-nft-creuma.netlify.app/)
 
 ## My process
 
