@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Link do GitHub](https://github.com/Creuma-Kuzola/NFT-card-preview)
+- Solution URL: [Link do repositório no GitHub](https://github.com/Creuma-Kuzola/NFT-card-preview)
 - Live Site URL: [Link do site](https://card-preview-nft-creuma.netlify.app/)
 
 ## My process
@@ -46,5 +46,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Creuma-Kuzola](https://www.frontendmentor.io/profile/Creuma-Kuzola)
-- Twitter - [@CKuzola](https://twitter.com/CKuzola)
 - GitHub - [@Creuma-Kuzola](https://github.com/Creuma-Kuzola)
+- LinkedIn - [@Creuma Matias](https://www.linkedin.com/in/creumamatias/)
+- Twitter - [@CKuzola](https://twitter.com/CKuzola)
+
