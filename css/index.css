@@ -40,6 +40,46 @@ body{
     height: 100%;
     width: 100%;
     border-radius: 0.7vw;
+    position: relative;
+    z-index: 1;
+}
+
+.div-img-nft::before{
+
+    content: " ";
+    width:17vw;
+    height: 35vh;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0.6;
+    z-index: 2;
+    border-radius: 0.7vw;
+    display: none;
+}
+
+.div-img-nft::after{
+    content: " ";
+    width: 3vw;
+    height: 5vh;
+    background-image: url("../images/icon-view.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    top: 30%;
+    cursor: pointer;
+    display: none;
+}
+
+.div-img-nft:hover::before, .div-img-nft:hover::after{
+
+    display: block;
+    cursor: pointer;
+    transition: 1s;
 }
 
 
@@ -52,9 +92,14 @@ body{
 }
 
 .content-h4{
-
     color: hsl(0, 0%, 100%);
     margin-top: 3vh;
+}
+
+.content-h4:hover{
+
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .content-p{
@@ -162,4 +207,10 @@ body{
 .section-author-p-span{
 
     color:hsl(0, 0%, 100%) ;
+}
+
+.section-author-p-span:hover{
+
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
